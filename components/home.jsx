@@ -68,10 +68,10 @@ const home = () => {
 
       <div className="relative">
         <div className="border-[#fcfd0c] rotate-3 border-2 w-[600px] h-[400px] absolute z-[0] rounded-xl"></div>
-
+        {/* use object cover or else you'll mess up the images ASPECT RATIO */}
         <Image
           src={img}
-          className="rounded-xl  w-[600px] h-[400px] z-[5] rotate-[-3deg]"
+          className="rounded-xl object-cover  w-[600px] h-[400px] z-[5] rotate-[-3deg]"
           width={500}
           height={500}
         ></Image>
