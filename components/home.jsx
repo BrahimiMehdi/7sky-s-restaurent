@@ -5,7 +5,7 @@ import {BsFillTelephoneForwardFill} from "react-icons/bs"
 const home = () => {
   return (
     <div className=" text-white items-center pt-20 p-[50px] justify-between flex">
-      <svg className="h-full w-full absolute inset-0 z-[0] opacity-20"  viewBox="0 0 1376 768">
+      <svg className="h-full w-full absolute inset-0 z-[0] opacity-5"  viewBox="0 0 1376 768">
       <g mask="url(&quot;#SvgjsMask1013&quot;)" fill="none">
         <path d="M1179.82 551.54L1213.22 551.54L1213.22 569.54L1179.82 569.54z" fill="rgba(245, 215, 41, 1)"></path>
         <path d="M524.32 491.22L543.7 491.22L543.7 521.62L524.32 521.62z" fill="rgba(245, 215, 41, 1)"></path>
